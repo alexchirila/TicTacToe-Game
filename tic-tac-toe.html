@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+	<div class = "container">
+		<div class = "game-wrap">
+			<h1>Tic Tac Toe</h1>
+			<div class = "game-board">
+				<table class="table">
+				    <tbody>
+				      <tr>
+				        <td class = "nbt"></td>
+				        <td class = "nbt"></td>
+				        <td class = "nbt nbr"></td>
+				      </tr>
+				      <tr>
+				        <td></td>
+				        <td></td>
+				        <td class = "nbr"></td>
+				      </tr>
+				      <tr>
+				        <td></td>
+				        <td></td>
+				        <td class = "nbr"></td>
+				      </tr>
+				    </tbody>
+				 </table>
+			</div>			
+				
+				<div class="winner">
+				</div>
+			
+		</div>
+
+
+		<div class="modal fade" tabindex="-1" role="dialog" id = "choose-side">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        
+		        <h4 class="modal-title">Choose your destiny!</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>Actually just choose between X and 0&hellip;</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" id="x" data-dismiss="modal">X</button>
+		        <button type="button" class="btn btn-default" id="zero" data-dismiss="modal">0</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+	</div>
+ 
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

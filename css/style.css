@@ -1,0 +1,115 @@
+
+    body {
+        font-family: 'Viga', sans-serif;
+
+    }
+
+    .game-wrap {
+        
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .game-board {
+        background-color: #0C1C33;
+        height: 490px;
+        width: 490px;
+        margin: 0 auto;
+        padding: 20px;
+        
+    }
+
+    .table {
+        height: 450px;
+        width: 450px;
+        margin: 0 auto;
+        background-color: #0C1C33;
+    }
+
+    td {
+        height: 150px;
+        width: 150px;
+        color : #FF5117;
+        font-size: 30px;
+    }
+
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        
+        line-height: 1.42857;
+        padding: 8px;
+        vertical-align: middle;
+    }   
+
+    .table > tbody > tr > td {
+        border-top: 2px solid #E1E6ED;
+        border-right: 2px solid #E1E6ED;
+    }
+
+    .table > tbody > tr > .nbt {
+        border-top: none;
+    }
+
+    .table > tbody > tr > .nbr {
+        border-right: none;
+    }
+
+    .modal-title, .modal-body {
+        text-align: center;
+    }
+
+    .modal-title {
+        font-size: 25px;
+    }
+
+    .modal-body {
+        font-size: 1.4em;
+    }
+
+    .modal-footer {
+        text-align: center;
+    }
+
+    .marked {
+        pointer-events: none; 
+    }
+
+    .winner {
+        display: none;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    @media screen and (max-width: 670px) {
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .table {
+        max-height: 190px;
+        max-width: 190px;
+    }
+
+    .game-board {
+        height: 230px;
+        width: 230px;
+    }
+    td {
+        height: 60px;
+        width: 60px;
+    }
+    .modal .modal-body {
+        font-size: 0.9em;
+    }
+
+    .winner {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    }
